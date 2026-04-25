@@ -8,6 +8,6 @@ Repository with my practice and solutions to HackerRank challenges, implemented 
 - `hard/` - Hard level problems
 
 ## Easy
-- [Plus Minus](easy/plus-minus.java)
-- [Mini-Max Sum](easy/mini-max-sum.java)
-- [Lonely Integer](easy/lonely-integer.java)
+- [Plus Minus](src/easy/PlusMinus.java)
+- [Mini-Max Sum](src/easy/MiniMaxSum.java)
+- [Lonely Integer](src/easy/LonelyInteger.java)
