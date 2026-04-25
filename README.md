@@ -11,3 +11,4 @@ Repository with my practice and solutions to HackerRank challenges, implemented 
 - [Plus Minus](src/easy/PlusMinus.java)
 - [Mini-Max Sum](src/easy/MiniMaxSum.java)
 - [Lonely Integer](src/easy/LonelyInteger.java)
+- [Pangrams](src/easy/Pangrams.java)
