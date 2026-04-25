@@ -12,24 +12,25 @@ package easy;
 import java.util.*;
 
 public class PlusMinus {
-    public static void plusMinus(List<Integer> arr) {
-        int positive = 0;
-        int negative = 0;
-        int zero = 0;
+    public static void plusMinus(List<Integer> numbers) {
+        int positiveCount = 0;
+        int negativeCount = 0;
+        int zeroCount = 0;
 
-        for (int num : arr) {
-            if (num > 0) {
-                positive ++;
-            } else if (num < 0) {
-                negative ++;
+        for (int currentNumber : numbers) {
+            if (currentNumber > 0) {
+                positiveCount++;
+            } else if (currentNumber < 0) {
+                negativeCount++;
             } else {
-                zero++;
+                zeroCount++;
             }
         }
-        int n = arr.size();
 
-        System.out.printf("%.6f\n", (double) positive / n);
-        System.out.printf("%.6f\n", (double) negative / n);
-        System.out.printf("%.6f\n", (double) zero / n);
+        int totalElements = numbers.size();
+
+        System.out.printf("%.6f\n", (double) positiveCount / totalElements);
+        System.out.printf("%.6f\n", (double) negativeCount / totalElements);
+        System.out.printf("%.6f\n", (double) zeroCount / totalElements);
     }
 }
