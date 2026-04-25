@@ -12,7 +12,8 @@ package easy;
 import java.util.*;
 
 public class PlusMinus {
-    public static void plusMinus(List<Integer> numbers) {
+    public static void plusMinus(List<Integer> arr) {
+        List<Integer> numbers = arr;
         int positiveCount = 0;
         int negativeCount = 0;
         int zeroCount = 0;

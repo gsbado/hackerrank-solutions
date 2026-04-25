@@ -12,10 +12,11 @@ import java.util.*;
 
 public class LonelyInteger {
     public static int resultlonelyinteger(List<Integer> a) {
+        List<Integer> numbers = a;
         int result = 0;
 
-        for (int num : a) {
-            result ^= num;
+        for (int currentNumber : numbers) {
+            result ^= currentNumber;
         }
 
         return result;

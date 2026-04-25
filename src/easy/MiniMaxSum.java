@@ -13,26 +13,27 @@ import java.util.*;
 
 public class MiniMaxSum {
     public static void miniMaxSum(List<Integer> arr) {
-        long total = 0;
+        List<Integer> numbers = arr;
+        long totalSum = 0;
 
-        int min = arr.get(0);
-        int max = arr.get(0);
+        int smallestValue = numbers.get(0);
+        int largestValue = numbers.get(0);
 
-        for (int num : arr) {
-            total += num;
+        for (int currentNumber : numbers) {
+            totalSum += currentNumber;
 
-            if (num < min) {
-                min = num;
+            if (currentNumber < smallestValue) {
+                smallestValue = currentNumber;
             }
 
-            if (num > max) {
-                max = num;
+            if (currentNumber > largestValue) {
+                largestValue = currentNumber;
             }
         }
 
-        long minSum = total - max;
-        long maxSum = total - min;
+        long minimumSum = totalSum - largestValue;
+        long maximumSum = totalSum - smallestValue;
 
-        System.out.println(minSum + " " + maxSum);
+        System.out.println(minimumSum + " " + maximumSum);
     }
 }
