@@ -13,3 +13,4 @@ Repository with my practice and solutions to HackerRank challenges, implemented 
 - [Lonely Integer](src/easy/LonelyInteger.java)
 - [Pangrams](src/easy/Pangrams.java)
 - [Simple Array Sum](src/easy/SimpleArraySum.java)
+- [A Very Big Sum](src/easy/AVeryBigSum.java)
