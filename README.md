@@ -12,3 +12,4 @@ Repository with my practice and solutions to HackerRank challenges, implemented 
 - [Mini-Max Sum](src/easy/MiniMaxSum.java)
 - [Lonely Integer](src/easy/LonelyInteger.java)
 - [Pangrams](src/easy/Pangrams.java)
+- [Simple Array Sum](src/easy/SimpleArraySum.java)
