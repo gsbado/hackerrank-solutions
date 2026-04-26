@@ -8,9 +8,10 @@ Repository with my practice and solutions to HackerRank challenges, implemented 
 - `hard/` - Hard level problems
 
 ## Easy
-- [Plus Minus](src/easy/PlusMinus.java)
-- [Mini-Max Sum](src/easy/MiniMaxSum.java)
-- [Lonely Integer](src/easy/LonelyInteger.java)
-- [Pangrams](src/easy/Pangrams.java)
-- [Simple Array Sum](src/easy/SimpleArraySum.java)
 - [A Very Big Sum](src/easy/AVeryBigSum.java)
+- [Lonely Integer](src/easy/LonelyInteger.java)
+- [Mini-Max Sum](src/easy/MiniMaxSum.java)
+- [Pangrams](src/easy/Pangrams.java)
+- [Plus Minus](src/easy/PlusMinus.java)
+- [Sales By Match](src/easy/SalesByMatch.java)
+- [Simple Array Sum](src/easy/SimpleArraySum.java)
