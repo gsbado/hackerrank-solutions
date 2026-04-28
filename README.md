@@ -15,3 +15,4 @@ Repository with my practice and solutions to HackerRank challenges, implemented 
 - [Plus Minus](src/easy/PlusMinus.java)
 - [Sales By Match](src/easy/SalesByMatch.java)
 - [Simple Array Sum](src/easy/SimpleArraySum.java)
+- [Time Conversion](src/easy/TimeConversion.java)
